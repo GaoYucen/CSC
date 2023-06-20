@@ -6,7 +6,7 @@ import random
 #from mpl_toolkits.mplot3d import Axes3D
 import TSP_LKH
 import TSP_GD
-import kruskal_clustering as ks
+import kruskal_clustering_balance as ks
 import time
 
 #%%
@@ -51,7 +51,7 @@ Iteration = 100
 best_tsp_value_route = np.zeros(M) #M维度的数组 greedy算法计算best route
 lr = 100 #学习率
 
-for route_num in range (M, M+1):
+for route_num in range (1, M+1):
     former_tsp_value = 10000
     max_iter = 0
     #进入迭代
