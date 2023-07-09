@@ -17,7 +17,8 @@ Code Structure:
     - TSP_GD: 使用greedy生成TSP长度
     - TSP_LKH: 使用LKH生成TSP长度
   - 聚类
-    - kruskal_clustering_balance: Balancing Kruksl聚类算法
+    - kruskal_clustering_balance.py: Balancing Kruksl聚类算法
+    - Kruskal_clustering.py: 基础kruskal算法
   - 方法
     - E-cluster-coo-kruskal-gra.py: 结合梯度下降坐标点更新的CSC问题算法（MAIN）
     - greedy+cluster-base：直接用K-means结果作为最终TSP
