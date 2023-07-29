@@ -23,6 +23,3 @@ Code Structure:
     - E-cluster-coo-kruskal-gra.py: 结合梯度下降坐标点更新的CSC问题算法（MAIN）
     - greedy+cluster-base：直接用K-means结果作为最终TSP
 
-
-
-结果分析：https://www.overleaf.com/read/dzcqhnbftrdp
