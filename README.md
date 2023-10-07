@@ -21,6 +21,7 @@ Code Structure:
     - Kruskal_clustering: Kruskal algorithm
     - KMeans: K-Means algorithm
   - method:
-    - E-cluster-coo-kruskal-gra: generate the CSC solution with Kruskal and gradient descend（MAIN）
-    - greedy+cluster-base：generate the CSC solution with the greedy method
-
+    - E-cluster-coo-kmeans-LKH: generate the CSC solution with kmeans and LKH method
+    - E-cluster-coo-kruskal-gre: generate the CSC solution with kruskal and greedy
+    - E-cluster-coo-kruskal-LKH: generate the CSC solution with kruskal and LKH
+    - E-cluster-coo-bkruskal-LKH-gra: generate the CSC solution with Balancing Kruskal, LKH and gradient descend（MAIN）
